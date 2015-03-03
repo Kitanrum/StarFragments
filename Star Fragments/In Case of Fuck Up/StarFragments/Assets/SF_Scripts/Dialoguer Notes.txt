@@ -1,0 +1,17 @@
+Dialoguer Notes!!!
+
+1. Always start with 
+
+	void Awake(){
+		Dialoguer.Initialize(); //starts dialoguer
+	}
+
+2. Dialoguer.StartDialogue(0, dialoguerCallback); will start your dialogue. Put it wherever you need it to! Trigger it with buttons or with colliders!
+
+3. Dialoguer.ContinueDialogue(); will advance your dialogue.
+
+4. Dialoguer.ContinueDialogue(i); will enable choices so that you can advance.
+
+5. Remember the enums for your dialogue!!!
+
+7. To create a branching dialogue with conditions, make sure you make each choice node lead to a global variable so that you can refer to it in a later script.
